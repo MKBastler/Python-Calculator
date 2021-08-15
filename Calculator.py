@@ -29,3 +29,4 @@ try:
     print (z)
 except ZeroDivisionError: print("You cannot devide through zero")
 except ValueError: print("Please use numbers")
+except: print("Please use the proper input methods")
