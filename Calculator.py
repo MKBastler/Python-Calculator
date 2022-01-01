@@ -8,24 +8,28 @@ except: print("You use the wrong input format")
 #Catch when letter is inserted  
 try:
    if (number==1):
+    #Addition
     x=float(input("Select the first number:"))
     y=float(input("Select the second number:"))
     z=x+y
     print (z)
 
    elif (number==2):
+    #Subtraction
     x=float(input("Select the first number:"))
     y=float(input("Select the second number:"))
     z=x-y
     print (z)
 
    elif (number==3):
+    #Multiplication
     x=float(input("Select the first number:"))
     y=float(input("Select the second number:"))
     z=x*y
     print (z)
 	
    elif (number==4):
+    #Division
     x=float(input("Select the first number:"))
     y=float(input("Select the second number:"))
     z=x/y
