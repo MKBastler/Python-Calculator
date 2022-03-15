@@ -34,9 +34,7 @@ try:
     y=float(input("Select the second number:"))
     z=x/y
     print (z)
-except ZeroDivisionError: print("You cannot devide through zero")
-#Catch deviding through zero
-except ValueError: print("Please use numbers")
-#Catch any other input error
-except: print("Please use the proper input methods")
-#Catch code related errors
+except: 
+  ZeroDivisionError: print("You cannot devide through zero")
+  ValueError: print("Please use numbers")
+  Exception: print("Please use the proper input methods")
